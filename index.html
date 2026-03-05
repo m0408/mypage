@@ -1,91 +1,171 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
-             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta property="og:title" content="즐겨찾기 링크" />
-        <meta property="og:description" content="도전이 즐거워지는 사이트" />
-        <meta property="og:image" content="공유할 이미지" />
-        <title>르탄이 - 프로필 링크</title>
-        <style>
-            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
-            * {
-                font-family: "Pretendard",serif;
-            }
-            body {
-                background-color: #44398a;
-            }
-            .profile {
-                width: 100px;
-                height: 100px;
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>유튜브 숏폼 챌린지 모집</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;700&display=swap');
+        
+        body {
+            font-family: 'Pretendard', sans-serif;
+            background-color: #f8fafc;
+            color: #334155;
+            word-break: keep-all;
+            line-height: 1.6;
+        }
+        .soft-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 24px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+        }
+        .section-title {
+            color: #0f172a;
+            font-size: 1.125rem;
+            font-weight: 700;
+            margin-bottom: 1.25rem;
+            display: flex;
+            align-items: center;
+        }
+        .accent-border {
+            border-left: 4px solid #f43f5e;
+        }
+    </style>
+</head>
+<body class="pb-16">
 
-                border-radius: 100%;
-                dorder : 2px solid white;
+    <!-- Header -->
+    <header class="bg-[#1e293b] text-white pt-14 pb-24 px-8 text-center rounded-b-[3rem]">
+        <h1 class="text-3xl font-bold mb-4 leading-tight">📢 유튜브 숏폼 챌린지<br>참가자 모집</h1>
+        <p class="text-slate-400 text-base font-light px-4 italic">
+            30일 동안 숏폼을 꾸준히 업로드하는 챌린지입니다.<br>
+            수익화 달성 시 추가 보너스 상금도 있습니다. 🚀
+        </p>
+    </header>
 
-                background-image: url('meta.jpg');
-                background-position: center;
-                background-size: cover;
-            }
-            .main {
-                color: white;
-                font-size: 20px;
+    <main class="px-6 -mt-12">
+        <!-- 1. 챌린지 개요 -->
+        <section class="soft-card p-7 mb-6">
+            <h2 class="section-title"><i class="fa-solid fa-calendar text-blue-500 mr-2 text-sm"></i> 📅 챌린지 개요</h2>
+            <div class="space-y-3 text-[0.95rem]">
+                <div class="flex items-start">
+                    <span class="text-slate-400 mr-2">•</span>
+                    <p><span class="font-semibold text-slate-500 mr-2">기간 :</span> <span class="text-slate-900 font-bold">3월 10일 ~ 4월 8일</span></p>
+                </div>
+                <div class="flex items-start">
+                    <span class="text-slate-400 mr-2">•</span>
+                    <p><span class="font-semibold text-slate-500 mr-2">조건 :</span> <span class="text-slate-900 font-bold">30일 동안 1일 1개 이상 업로드</span></p>
+                </div>
+            </div>
 
-                margin-top: 30px;
-                margin-bottom: 10px;
-            }
-            .sub {
-                color: white;
-                font-size: 14px;
-                margin-top: 0px;
-                margin-bottom: 30px;
-            }
-            .wrap {
-                width: 300px;
-                margin: 30px auto 0px auto;
+            <h2 class="section-title mt-8"><i class="fa-solid fa-pen-to-square text-blue-500 mr-2 text-sm"></i> 📝 참가 신청</h2>
+            <div class="space-y-3 text-[0.95rem]">
+                <div class="flex items-start">
+                    <span class="text-slate-400 mr-2">•</span>
+                    <p><span class="font-semibold text-slate-500 mr-2">신청 기간 :</span> <span class="text-slate-900 font-bold">3월 5일 ~ 챌린지 시작 전까지</span></p>
+                </div>
+                <div class="flex items-start">
+                    <span class="text-slate-400 mr-2">•</span>
+                    <div class="flex-1">
+                        <span class="font-semibold text-slate-500">신청 링크 :</span><br>
+                        <a href="https://forms.gle/6MDj3dBMX1TicyF9A" class="text-blue-600 font-bold break-all underline">https://forms.gle/6MDj3dBMX1TicyF9A</a>
+                    </div>
+                </div>
+            </div>
 
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-            .wrap > a {
-                width: 300px;
-                height: 50px;
+            <h2 class="section-title mt-8"><i class="fa-solid fa-won-sign text-emerald-500 mr-2 text-sm"></i> 💰 참가비</h2>
+            <div class="flex items-start text-[0.95rem]">
+                <span class="text-slate-400 mr-2">•</span>
+                <p class="text-emerald-600 font-bold text-lg">10,000원</p>
+            </div>
+        </section>
 
-                background-color: white;
-                border-radius: 8px;
-                margin-bottom: 10px;
+        <!-- 2. 참가 조건 (원문 유지) -->
+        <section class="soft-card p-7 mb-6 accent-border">
+            <h2 class="section-title text-rose-600"><i class="fa-solid fa-triangle-exclamation mr-2 text-sm"></i> 📌 참가 조건 (중요)</h2>
+            <div class="space-y-4 text-[0.92rem] text-slate-600">
+                <div class="flex gap-3">
+                    <span class="flex-shrink-0 w-6 h-6 bg-rose-50 text-rose-600 rounded flex items-center justify-center font-bold">1</span>
+                    <p>3월 2일 이후 개설된 신규 유튜브 채널만 참여 가능</p>
+                </div>
+                <div class="flex gap-3">
+                    <span class="flex-shrink-0 w-6 h-6 bg-rose-50 text-rose-600 rounded flex items-center justify-center font-bold">2</span>
+                    <p>3월 2일 이전 개설 채널은 참여 불가 (신규 채널 필수)</p>
+                </div>
+                <div class="flex gap-3">
+                    <span class="flex-shrink-0 w-6 h-6 bg-rose-50 text-rose-600 rounded flex items-center justify-center font-bold">3</span>
+                    <p>신규 채널 개설 시 전화 인증이 필요한 경우 인증 후 개설</p>
+                </div>
+                <div class="flex gap-3">
+                    <span class="flex-shrink-0 w-6 h-6 bg-rose-50 text-rose-600 rounded flex items-center justify-center font-bold">4</span>
+                    <p>신규 채널 링크를 제공된 사이트에 등록해야 챌린지 시작</p>
+                </div>
+                <div class="flex gap-3">
+                    <span class="flex-shrink-0 w-6 h-6 bg-rose-50 text-rose-600 rounded flex items-center justify-center font-bold">5</span>
+                    <p>3월 9일까지 업로드한 영상은 모두 비공개 처리해야 함</p>
+                </div>
+            </div>
+        </section>
 
-                font-size: 14px;
-                font-weight: bold;
-                color: #44398a;
-                
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
+        <!-- 3. 주제 및 형식 -->
+        <section class="soft-card p-7 mb-6">
+            <h2 class="section-title"><i class="fa-solid fa-bullseye text-orange-500 mr-2 text-sm"></i> 🎯 채널 주제</h2>
+            <div class="flex items-start text-[0.95rem] mb-6">
+                <span class="text-slate-400 mr-2">•</span>
+                <p>시니어 정보 / 생활 / 건강 채널만 가능</p>
+            </div>
+            
+            <h2 class="section-title"><i class="fa-solid fa-clapperboard text-slate-700 mr-2 text-sm"></i> 🎬 영상 형식</h2>
+            <div class="flex items-start text-[0.95rem]">
+                <span class="text-slate-400 mr-2">•</span>
+                <p>유튜브 숏폼(Shorts)만 가능</p>
+            </div>
+        </section>
 
-                text-decoration: none;
+        <!-- 4. 순위 및 시상 -->
+        <section class="soft-card p-7 mb-6">
+            <h2 class="section-title"><i class="fa-solid fa-list-ol text-slate-500 mr-2 text-sm"></i> 🏆 순위 기준</h2>
+            <ul class="space-y-2 text-[0.9rem] text-slate-600 ml-2 mb-4">
+                <li class="flex items-center"><i class="fa-solid fa-chevron-right text-[10px] mr-2 opacity-30"></i> 최다 조회수</li>
+                <li class="flex items-center"><i class="fa-solid fa-chevron-right text-[10px] mr-2 opacity-30"></i> 최다 영상 업로드 수</li>
+                <li class="flex items-center"><i class="fa-solid fa-chevron-right text-[10px] mr-2 opacity-30"></i> 최다 댓글 수</li>
+            </ul>
+            <p class="text-xs text-slate-400 italic bg-slate-50 p-2 rounded">단서: 상위 기준이 동일할 경우 다음 순위 기준을 적용함</p>
 
-                box-shadow: 3px 3px 5px 0px black;
-            }
-            .wrap > a:hover {
-                background-color:#f2f2f2; 
-            }
-        </style>
-    </head>
-    <body>
-        <div class="wrap">
-            <div class ="profile"></div>
-            <h1 class ="main">도전</h1>
-            <p class ="sub">돈을 걸고 의지를 사자! 챌린져스<div class=""></div></p>
-            <a target="_blank" href="https://chlngers.onelink.me/Ju7U/o7putdmz?af_web_dp=https://web.chlngers.com
-            https://chlngers.onelink.me/Ju7U/o7putdmz?af_web_dp=https://web.chlngers.com">챌린져스</a>
-            <a target="_blank" href="https://m.glyde.co.kr/ui/member/registerPopup?recommendEmailInput=mindaway%40nate.com">글라이드(간편식)</a>
- 
-        </div>
-    </body>
+            <h2 class="section-title mt-8"><i class="fa-solid fa-coins text-yellow-500 mr-2 text-sm"></i> 💵 시상금</h2>
+            <div class="space-y-3">
+                <div class="flex items-center justify-between p-3 bg-yellow-50 rounded-xl">
+                    <span class="font-bold text-slate-700">🥇 1등</span>
+                    <span class="font-extrabold text-slate-900">20만원</span>
+                </div>
+                <div class="flex items-center justify-between p-3 bg-slate-50 rounded-xl">
+                    <span class="font-bold text-slate-700">🥈 2등</span>
+                    <span class="font-extrabold text-slate-900">10만원</span>
+                </div>
+                <div class="flex items-center justify-between p-3 bg-slate-50 rounded-xl">
+                    <span class="font-bold text-slate-700">🥉 3등 ~ 10등</span>
+                    <span class="font-bold text-slate-900 text-sm">참가비 총액을 1/8 분할 지급</span>
+                </div>
+            </div>
+
+            <div class="mt-6 p-4 border border-emerald-100 bg-emerald-50 rounded-2xl">
+                <p class="text-sm font-bold text-emerald-900 mb-1">🏅 영현쌤 격려상</p>
+                <p class="text-xs text-emerald-700 leading-relaxed">• 30일 완주한 참가자 중 입상하지 못한 사람에게 참가비(10,000원) 환급</p>
+            </div>
+
+            <div class="mt-4 p-4 border border-rose-100 bg-rose-50 rounded-2xl">
+                <p class="text-sm font-bold text-rose-900 mb-1">🎁 추가 보너스</p>
+                <p class="text-xs text-rose-700 leading-relaxed italic underline decoration-rose-200 decoration-2">🔥 챌린지 기간 30일 내 채널 수익화 달성 시 추가 30만원 지급</p>
+            </div>
+        </section>
+
+        <footer class="mt-12 text-center text-slate-400 text-xs">
+            2026 트리거스 숏폼 챌린지(안쌤)
+        </footer>
+    </main>
+
+</body>
 </html>
